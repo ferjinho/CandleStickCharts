@@ -21,7 +21,7 @@ Raphael.fn.candlechart = function (width, height, valuesy, opts) {
   opts.bottomBuffer =  opts.bottomBuffer || 8;
   
   // Bar color
-  opts.fillColorNegative = opts.fillColorNegative || "black";
+  opts.fillColorNegative = opts.fillColorNegative || "gray";
   opts.fillColorPositive = opts.fillColorPositive || "white";
   
   // How often we draw the bars between series.
